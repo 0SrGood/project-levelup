@@ -1,0 +1,10 @@
+Roblox Creator Documentation images
+Source repository: https://github.com/Roblox/creator-docs
+License: https://github.com/Roblox/creator-docs/blob/main/LICENSE
+{
+  "learn-interface.jpg": "tutorials/user-interface-design/Section1/Intro.jpg",
+  "learn-model.png": "modeling/solid-modeling/Union-After.png",
+  "learn-world.jpg": "tutorials/core-building-and-scripting/ApplyAssetLibrary/SeaStacks-18.jpg",
+  "learn-animation.png": "animation/animation-editor/Editor-Sections-Labeled.png",
+  "learn-code.png": "studio/script-editor/Autocomplete-API.png"
+}
