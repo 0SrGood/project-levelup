@@ -8,3 +8,6 @@ License: https://github.com/Roblox/creator-docs/blob/main/LICENSE
   "learn-animation.png": "animation/animation-editor/Editor-Sections-Labeled.png",
   "learn-code.png": "studio/script-editor/Autocomplete-API.png"
 }
+Level Up brand assets
+Logo, emblem and mascots: supplied from the Level Up Academy workspace.
+Photo: frame 16_IMG_9841_3.10s.jpg from LevelUp_25_Frames_para_Capas_Reels.zip, supplied by the owner. WebP optimized for the site; the original is not altered.
