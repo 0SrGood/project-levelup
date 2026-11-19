@@ -21,3 +21,5 @@ Active v4 portrait: direct transparency-mask cutout of the owner's approved refe
 Active v4 material representations: original, editable SVG illustrations of professional tool interfaces, created for this website. Earlier game-thumbnail generations were discarded and are not included.
 Roblox Studio transition mark: Simple Icons, https://cdn.simpleicons.org/robloxstudio/789cbd.
 Blender transition logo: official logo kit, https://download.blender.org/branding/blender_logo_kit.zip; https://www.blender.org/about/logo/.
+
+Active v5 portrait: full photographic portrait with dark studio background and violet/golden lighting, edited with built-in ImageGen from the owner's approved reference. Original PNG plus optimized WebP; prompt in docs/retrato-iluminado-v5.md. Earlier masked/cutout versions are not active.
