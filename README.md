@@ -12,13 +12,13 @@ No GitHub, acesse Settings > Pages e selecione Deploy from a branch, branch main
 
 ## Conteúdo
 
-Os arquivos ativos são `index.html`, `inscricoes-v2.css`, `inscricoes-v2.js` e a pasta `assets/`. Os novos nomes dos arquivos de estilo e script evitam misturar o HTML novo com arquivos antigos em cache. O arquivo `.nojekyll` desativa o processamento Jekyll. Não há etapa de build nem dependências para servir a página.
+Os arquivos ativos são `index.html`, `inscricoes-v3.css`, `inscricoes-v3.js` e a pasta `assets/`. Os novos nomes dos arquivos de estilo e script evitam misturar o HTML novo com arquivos antigos em cache. O arquivo `.nojekyll` desativa o processamento Jekyll. Não há etapa de build nem dependências para servir a página.
 
 ## Imagens
 
-Veja `image-credits.txt`. O logotipo, o emblema e os mascotes vêm dos materiais da própria Level Up. A fotografia da apresentação é o quadro 16 do acervo enviado pelo responsável pelo site. As imagens foram otimizadas em WebP; as fontes DM Sans e Space Grotesk são servidas localmente.
+Veja `image-credits.txt`. O logotipo, o emblema e os mascotes vêm dos materiais da própria Level Up. A fotografia da apresentação é o quadro 16 do acervo enviado pelo responsável pelo site, recortado e tratado com ImageGen. O PNG transparente e o prompt estão documentados em `docs/professor-tallyson-prompt.md`. As imagens de exibição são otimizadas em WebP. As fontes DM Sans e Outfit são servidas localmente; a licença da Outfit acompanha os arquivos.
 
-As imagens e os arquivos das versões anteriores foram preservados para compatibilidade com páginas em cache. A página atual carrega somente o logotipo, o Uppi e a foto 16.
+As imagens e os arquivos das versões anteriores foram preservados para compatibilidade com páginas em cache. A página atual apresenta o professor, cinco materiais com os respectivos mascotes e a captura real do laboratório em molduras de dispositivos. O formulário fica diretamente sobre o fundo da página, o cabeçalho é fixo e o guia Uppi pode ser recolhido. A barra de rolagem fica oculta sem desativar a rolagem.
 
 ## Formulário
 

@@ -1,13 +1,14 @@
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
-const source = await readFile(new URL('../inscricoes-v2.js', import.meta.url), 'utf8');
+const source = await readFile(new URL('../inscricoes-v3.js', import.meta.url), 'utf8');
 function setup(mode) {
   const elements = new Map();
   const get = selector => {
     if (!elements.has(selector)) elements.set(selector, {
       value: '', hidden: selector === '#form-result', disabled: false,
       listeners: {}, classList: { add() {}, remove() {} },
+      attributes: {}, setAttribute(name, value) { this.attributes[name] = value; },
       addEventListener(name, callback) { this.listeners[name] = callback; },
       setCustomValidity(message) { this.error = message; },
       scrollIntoView() {}, focus() {},
@@ -56,3 +57,11 @@ for (const invalid of ['name', 'phone', 'honeypot']) {
   assert.equal(test.requests.length, 0, `Não enviar dados inválidos: ${invalid}`);
 }
 console.log('OK: sucesso, falha de e-mail, WhatsApp, retorno à edição, bloqueio de duplicatas e dados inválidos. Nenhuma requisição externa.');
+const guideTest = setup('success');
+guideTest.get('#dismiss-guide').listeners.click();
+assert.equal(guideTest.get('#guide-message').hidden, true);
+assert.equal(guideTest.get('#guide-toggle').attributes['aria-expanded'], 'false');
+guideTest.get('#guide-toggle').listeners.click();
+assert.equal(guideTest.get('#guide-message').hidden, false);
+assert.equal(guideTest.get('#guide-toggle').attributes['aria-expanded'], 'true');
+console.log('OK: guia Uppi recolhe e reabre com estado acessível.');

@@ -8,40 +8,67 @@
   <meta name="description" content="Aprenda a criar jogos no Roblox Studio. Conheça a Level Up e faça sua pré-inscrição para aulas presenciais ou online.">
   <link rel="icon" href="assets/favicon-levelup-branco.jpg" type="image/jpeg">
   <link rel="stylesheet" href="assets/fonts/fonts.css">
-  <link rel="stylesheet" href="inscricoes-v2.css">
-  <script src="inscricoes-v2.js" defer></script>
+  <link rel="stylesheet" href="assets/fonts/outfit.css">
+  <link rel="stylesheet" href="inscricoes-v3.css">
+  <script src="inscricoes-v3.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
     <a class="brand" href="#inicio" aria-label="Level Up início"><img src="assets/level-up.png" alt="Level Up" width="525" height="150"></a>
-    <nav aria-label="Navegação principal"><a href="#curso">O curso</a><a href="#inscricao">Inscreva-se</a></nav>
+    <nav aria-label="Navegação principal"><a href="#curso">O curso</a><a href="#aplicativo">O aplicativo</a><a href="#inscricao">Inscreva-se</a></nav>
     <a class="student-link" href="https://0srgood.github.io/levelup-academy-web/"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v16h-6M3 12h12m-4-4 4 4-4 4"/></svg>Já sou aluno</a>
   </header>
 
   <main id="conteudo">
     <section class="intro section-width" id="inicio">
       <div class="intro-copy">
-        <p class="eyebrow">CURSO DE ROBLOX STUDIO</p>
         <h1>Suas ideias.<br><span>Seus próprios jogos.</span></h1>
         <p class="lead">Aprenda a programar, construir mundos e dar vida às suas criações. Aulas presenciais ou online, com a Level Up.</p>
         <a class="primary-button" href="#inscricao">Quero me inscrever</a>
-        <div class="uppi-note"><img src="assets/uppi.webp" alt="Uppi, mascote da Level Up" width="72" height="80"><p>Seu próximo nível<br><strong>começa com uma ideia.</strong></p></div>
       </div>
-      <figure class="intro-photo"><img src="assets/level-up-foto-16.webp" alt="Apresentação da Level Up com a camiseta da marca" width="800" height="1422" fetchpriority="high"></figure>
+      <figure class="teacher-portrait">
+        <div class="portrait-orbit" aria-hidden="true"></div>
+        <svg class="portrait-code" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" aria-hidden="true"><path d="m7 7-5 5 5 5m10-10 5 5-5 5m-3-14-4 18"/></svg>
+        <picture><source srcset="assets/professor-tallyson.webp" type="image/webp"><img src="assets/professor-tallyson.png" alt="Professor Tallyson, sorrindo com a camiseta da Level Up" width="1142" height="1377" fetchpriority="high"></picture>
+        <figcaption><span>Professor</span><strong>Tallyson</strong></figcaption>
+      </figure>
     </section>
 
     <section class="course-section" id="curso" aria-labelledby="course-title">
-      <div class="section-width course-layout">
-        <div><p class="eyebrow">DO PRIMEIRO PASSO AO SEU PROJETO</p><h2 id="course-title">O que você vai aprender</h2><p>Explore as áreas de criação no Roblox Studio, mesmo começando do zero.</p></div>
-        <ul class="learning-list"><li>Programação em Luau</li><li>Construção de cenários</li><li>Design de interfaces</li><li>Modelagem 3D</li><li>Animação</li></ul>
-        <div class="platform-note"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg><div><h3>Uma plataforma para continuar aprendendo.</h3><p>Materiais, videoaulas, atividades e desafios na Level Up Academy.</p></div></div>
+      <div class="section-width">
+        <div class="course-heading"><h2 id="course-title">O que você vai <span>criar?</span></h2><p>Explore cada área com os materiais e os mascotes da Level Up.</p></div>
+        <div class="materials">
+          <article class="material"><div class="material-art"><img class="material-screen" src="assets/material-studio.webp" alt="Exemplo de cenário no Roblox Studio" width="640" height="363" loading="lazy"><img class="material-mascot" src="assets/roblox-studio.webp" alt="Pino, mascote de Roblox Studio" width="130" height="130" loading="lazy"></div><h3>Roblox Studio</h3><p>Conheça as ferramentas e dê os primeiros passos na criação de jogos.</p></article>
+          <article class="material"><div class="material-art"><img class="material-screen" src="assets/material-luau.webp" alt="Editor de scripts em Luau" width="640" height="363" loading="lazy"><img class="material-mascot" src="assets/programacao-luau.webp" alt="Chavi, mascote de Programação Luau" width="130" height="130" loading="lazy"></div><h3>Programação em Luau</h3><p>Crie regras, desafios e interações para dar vida às suas ideias.</p></article>
+          <article class="material"><div class="material-art"><img class="material-screen" src="assets/material-modelagem.webp" alt="Exemplo de modelagem de objetos 3D" width="640" height="363" loading="lazy"><img class="material-mascot" src="assets/criacao-modelagem-3d.webp" alt="Bisel, mascote de Criação e Modelagem 3D" width="130" height="130" loading="lazy"></div><h3>Criação e modelagem 3D</h3><p>Construa cenários e transforme formas em objetos para seus mundos.</p></article>
+          <article class="material"><div class="material-art"><img class="material-screen" src="assets/material-interfaces.webp" alt="Exemplo de interface de um jogo" width="640" height="363" loading="lazy"><img class="material-mascot" src="assets/ui-design.webp" alt="Mosa, mascote de UI Design" width="130" height="130" loading="lazy"></div><h3>Design de interfaces</h3><p>Desenhe menus, botões e telas que fazem parte da experiência.</p></article>
+          <article class="material"><div class="material-art"><img class="material-screen" src="assets/material-animacao.webp" alt="Editor de animação com linha do tempo" width="640" height="363" loading="lazy"><img class="material-mascot" src="assets/animacao.webp" alt="Flipa, mascote de Animação" width="130" height="130" loading="lazy"></div><h3>Animação</h3><p>Dê movimento e expressão aos personagens e objetos dos seus jogos.</p></article>
+        </div>
+        <p class="image-credit">Imagens ilustrativas do <a href="https://github.com/Roblox/creator-docs" target="_blank" rel="noopener noreferrer">Roblox Creator Hub</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.</p>
+      </div>
+    </section>
+
+    <section class="app-section section-width" id="aplicativo" aria-labelledby="app-title">
+      <figure class="device-scene" aria-label="Prévia do laboratório em um computador, tablet e celular">
+        <div class="device-glow" aria-hidden="true"></div>
+        <div class="computer device"><div class="device-camera" aria-hidden="true"></div><img src="assets/laboratorio.webp" alt="Laboratório da Level Up no computador, com ferramentas de criação e Explorador" width="1600" height="860" loading="lazy"><span>Computador</span><div class="computer-base" aria-hidden="true"></div></div>
+        <div class="tablet device"><img src="assets/laboratorio.webp" alt="Prévia do Laboratório em um tablet na horizontal" width="1600" height="860" loading="lazy"><span>Tablet</span></div>
+        <div class="phone device"><img src="assets/laboratorio.webp" alt="Prévia do Laboratório em um celular na horizontal" width="1600" height="860" loading="lazy"><span>Celular</span></div>
+        <figcaption>Prévia do Laboratório da Level Up.</figcaption>
+      </figure>
+      <div class="app-copy">
+        <div class="app-brand"><img src="assets/favicon-levelup-branco.jpg" alt="Logo do aplicativo Level Up Academy" width="64" height="64"><div><strong>Level Up Academy</strong><span>O aplicativo da Level Up</span></div></div>
+        <h2 id="app-title">Seu laboratório.<br><span>Em qualquer tela.</span></h2>
+        <p>Programe em Luau, construa cenários e teste suas ideias no celular, tablet ou computador. Seu aprendizado continua além da aula.</p>
+        <ul class="app-benefits"><li>Laboratório para criar e testar seus jogos</li><li>Materiais e videoaulas para revisar no seu ritmo</li><li>Atividades, desafios e acompanhamento do progresso</li></ul>
+        <div class="device-labels" aria-label="Dispositivos para aprender"><span>Celular</span><span>Tablet</span><span>Computador</span></div>
       </div>
     </section>
 
     <section class="enrollment section-width" id="inscricao" aria-labelledby="enrollment-title">
-      <div class="enrollment-copy"><p class="eyebrow">VAMOS CONVERSAR</p><h2 id="enrollment-title">Dê o primeiro passo.</h2><p>Preencha os dados para conhecer as turmas, os horários e os valores. Depois, continue pelo WhatsApp.</p><p class="quiet">A pré-inscrição é sem compromisso de matrícula.</p><a class="contact-link" href="https://wa.me/5584994212725?text=Ol%C3%A1%2C%20Level%20Up!%20Quero%20saber%20mais%20sobre%20o%20curso.">Prefere falar direto com a gente?</a></div>
-      <div class="enrollment-card">
+      <div class="enrollment-copy"><h2 id="enrollment-title">Seu próximo nível<br><span>começa aqui.</span></h2><p>Preencha os dados para conhecer as turmas, os horários e os valores. Depois, continue pelo WhatsApp.</p><p class="quiet">A pré-inscrição é sem compromisso de matrícula.</p><a class="contact-link" href="https://wa.me/5584994212725?text=Ol%C3%A1%2C%20Level%20Up!%20Quero%20saber%20mais%20sobre%20o%20curso.">Prefere falar direto com a gente?</a></div>
+      <div class="enrollment-form-wrap">
         <form id="enrollment-form">
           <h3>Pré-inscrição</h3>
           <div class="field"><label for="nome">Nome para contato</label><input id="nome" name="Nome para contato" autocomplete="name" placeholder="Seu nome" maxlength="100" required></div>
@@ -69,5 +96,10 @@
     </section>
   </main>
   <footer class="site-footer section-width"><span>© <span id="year">2026</span> Level Up</span><span>Curso independente, sem afiliação com a Roblox Corporation.</span><a href="https://www.instagram.com/_projectlevelup/" target="_blank" rel="noopener noreferrer">Instagram</a></footer>
+  <aside class="floating-guide" aria-label="Guia da Level Up">
+    <div class="guide-message" id="guide-message"><button type="button" id="dismiss-guide" aria-label="Recolher mensagem do Uppi"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button><p id="guide-text">Oi! Sou o Uppi. Vamos criar seu próximo jogo?</p></div>
+    <button class="guide-mascot" id="guide-toggle" type="button" aria-label="Abrir ou recolher o guia Uppi" aria-expanded="true" aria-controls="guide-message"><img src="assets/uppi.webp" alt="Uppi" width="110" height="122"></button>
+    <a class="whatsapp-float" href="https://wa.me/5584994212725?text=Ol%C3%A1%2C%20Level%20Up!%20Quero%20saber%20mais%20sobre%20o%20curso." aria-label="Falar com a Level Up no WhatsApp"><svg width="29" height="29" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20l1.1-4.8A8.5 8.5 0 1 1 20.5 11.5Z"/><path d="M8 7.5c-.6.2-.9 1.2-.7 2 .6 2.5 3 4.8 5.5 5.4.9.2 1.9-.1 2.2-.8l.4-1-2.2-1.1-.8.9a7 7 0 0 1-3.3-3.3l.8-.8L9 7.1Z"/></svg></a>
+  </aside>
 </body>
 </html>

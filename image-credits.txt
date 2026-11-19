@@ -11,3 +11,8 @@ License: https://github.com/Roblox/creator-docs/blob/main/LICENSE
 Level Up brand assets
 Logo, emblem and mascots: supplied from the Level Up Academy workspace.
 Photo: frame 16_IMG_9841_3.10s.jpg from LevelUp_25_Frames_para_Capas_Reels.zip, supplied by the owner. WebP optimized for the site; the original is not altered.
+
+Professor Tallyson cutout: owner-supplied frame 16, background removal and lighting/sharpness cleanup with built-in ImageGen. Transparent PNG plus optimized WebP; prompt in docs/professor-tallyson-prompt.md.
+Laboratory: real screenshot supplied by the owner, reused inside CSS computer, tablet and landscape phone mockups.
+Material preview WebP files: optimized derivatives of the Roblox Creator Documentation images credited above.
+Outfit typeface: The Outfit Project Authors, SIL Open Font License; assets/fonts/Outfit-OFL.txt.
