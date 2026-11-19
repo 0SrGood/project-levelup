@@ -12,13 +12,13 @@ No GitHub, acesse Settings > Pages e selecione Deploy from a branch, branch main
 
 ## Conteúdo
 
-Os arquivos ativos são `index.html`, `inscricoes-v3.css`, `inscricoes-v3.js` e a pasta `assets/`. Os novos nomes dos arquivos de estilo e script evitam misturar o HTML novo com arquivos antigos em cache. O arquivo `.nojekyll` desativa o processamento Jekyll. Não há etapa de build nem dependências para servir a página.
+Os arquivos ativos são `index.html`, `inscricoes-v4.css`, `inscricoes-v4.js` e a pasta `assets/`. Os nomes versionados dos arquivos de estilo e script evitam misturar o HTML novo com arquivos antigos em cache. O arquivo `.nojekyll` desativa o processamento Jekyll. Não há etapa de build nem dependências para servir a página.
 
 ## Imagens
 
-Veja `image-credits.txt`. O logotipo, o emblema e os mascotes vêm dos materiais da própria Level Up. A fotografia da apresentação é o quadro 16 do acervo enviado pelo responsável pelo site, recortado e tratado com ImageGen. O PNG transparente e o prompt estão documentados em `docs/professor-tallyson-prompt.md`. As imagens de exibição são otimizadas em WebP. As fontes DM Sans e Outfit são servidas localmente; a licença da Outfit acompanha os arquivos.
+Veja `image-credits.txt`. O logotipo, o emblema e os mascotes vêm dos materiais da própria Level Up. O retrato ativo foi recortado diretamente da arte de referência aprovada pelo proprietário: preserva a fotografia, sem geração ou reconstrução facial/corporal. A máscara altera somente a transparência; o PNG conserva os pixels visíveis da referência. As representações das matérias são ilustrações SVG próprias de ferramentas e fluxos de edição, sem thumbnails de jogos. As fontes DM Sans e Outfit são servidas localmente; a licença da Outfit acompanha os arquivos.
 
-As imagens e os arquivos das versões anteriores foram preservados para compatibilidade com páginas em cache. A página atual apresenta o professor, cinco materiais com os respectivos mascotes e a captura real do laboratório em molduras de dispositivos. O formulário fica diretamente sobre o fundo da página, o cabeçalho é fixo e o guia Uppi pode ser recolhido. A barra de rolagem fica oculta sem desativar a rolagem.
+As imagens e os arquivos das versões anteriores foram preservados para compatibilidade com páginas em cache. A página atual apresenta o professor, cinco materiais com os respectivos mascotes e a captura real do laboratório em molduras de dispositivos. Os elementos de Roblox Studio e Blender atravessam as transições com baixa opacidade. O formulário fica diretamente sobre o fundo da página, centralizado sob os textos; o cabeçalho é fixo e o guia Uppi pode ser recolhido. A barra de rolagem fica oculta sem desativar a rolagem.
 
 ## Formulário
 

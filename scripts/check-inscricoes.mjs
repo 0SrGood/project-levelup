@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
-const source = await readFile(new URL('../inscricoes-v3.js', import.meta.url), 'utf8');
+const source = await readFile(new URL('../inscricoes-v4.js', import.meta.url), 'utf8');
 function setup(mode) {
   const elements = new Map();
   const get = selector => {
